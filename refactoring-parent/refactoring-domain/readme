@@ -1,0 +1,4 @@
+	<!-- 2. Configuration JNDI DATABASE  -->
+	<bean id="dataSource" class="org.springframework.jndi.JndiObjectFactoryBean">
+		<property name="jndiName" value="${datasource.jndiname}" />
+	</bean>
